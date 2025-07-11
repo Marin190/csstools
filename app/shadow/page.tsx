@@ -9,6 +9,7 @@ import { Slider } from '@/components/ui/slider'
 import { Copy, Plus, RotateCcw, Trash2 } from 'lucide-react'
 import { toast } from '@/components/ui/use-toast'
 import { Navbar } from '@/components/navebar'
+import { Footer } from '@/components/footer'
 
 interface BoxShadow {
   id: string
@@ -372,6 +373,7 @@ export default function ShadowPage() {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

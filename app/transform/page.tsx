@@ -8,6 +8,7 @@ import { Slider } from '@/components/ui/slider'
 import { Copy, RotateCcw } from 'lucide-react'
 import { toast } from '@/components/ui/use-toast'
 import { Navbar } from '@/components/navebar'
+import { Footer } from '@/components/footer'
 
 interface TransformSettings {
   translateX: number
@@ -485,6 +486,7 @@ export default function TransformPage() {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

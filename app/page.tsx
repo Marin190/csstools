@@ -1,5 +1,6 @@
 'use client'
 
+import { Footer } from '@/components/footer'
 import { GradientGenerator } from '@/components/gradient-generator'
 import { Navbar } from '@/components/navebar'
 
@@ -18,6 +19,7 @@ export default function Home() {
         </div>
         <GradientGenerator />
       </div>
+      <Footer />
     </main>
   )
 }
