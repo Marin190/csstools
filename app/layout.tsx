@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Générateur de Gradients CSS',
-  description: 'Créez facilement des gradients CSS personnalisés',
+  title: 'CSS Tools',
+  description: 'Créez facilement des models CSS personnalisés',
 }
 
 export default function RootLayout({
